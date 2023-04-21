@@ -3,6 +3,13 @@
   background-color: hsl(0, 0%, 100%);
 }
 
+
+/*DARKMODE*/
+.App-dark {
+  background-color: hsl(232, 19%, 15%);
+  color: hsl(0, 0%, 100%);
+}
+
 .App-header {
   display: flex;
   flex-direction: row;
@@ -64,7 +71,7 @@ h2 {
 }
 
 .Filters-dark input:checked + .Slider {
-  background-color: blue;
+  background-image: linear-gradient(to left, hsl(210, 78%, 56%), hsl(146, 68%, 55%));
 }
 
 .Filters input:checked + .Slider:before {
