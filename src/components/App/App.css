@@ -90,5 +90,6 @@ h2 {
 /*Cards organisation*/
 
 .App-GlobalOverview{
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
 }

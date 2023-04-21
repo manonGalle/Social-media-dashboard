@@ -1,5 +1,7 @@
 import GlobalCard from "./GlobalCard/GlobalCard";
 
+import "./GlobalOverview.css";
+
 function GlobalOverview() {
     return (
         <div className="GlobalOverview">
