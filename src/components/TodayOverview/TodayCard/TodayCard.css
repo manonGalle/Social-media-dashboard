@@ -1,0 +1,10 @@
+.TodayCard {
+    background-color: hsl(227, 47%, 96%);
+    margin:10px;
+    width: 180px;
+    padding: 10px;
+}
+
+.TodayCard-dark {
+    background-color: hsl(228, 28%, 20%);
+}

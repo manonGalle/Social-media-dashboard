@@ -1,5 +1,7 @@
 import TodayCard from "./TodayCard/TodayCard";
 
+import "./TodayOverview.css";
+
 function TodayOverview() {
     return (
         <div className="TodayOverview">

@@ -87,9 +87,3 @@ h2 {
   background-color: black;
 }
 
-/*Cards organisation*/
-
-.App-GlobalOverview{
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-}
