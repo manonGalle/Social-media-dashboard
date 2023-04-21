@@ -16,6 +16,8 @@ function App() {
   const cssClass = darkmode ? 'Filters Filters-dark' : 'Filters';
 
   const setDarkmode = () => {
+    const body = document.querySelector(".App");
+    body.classList.toggle('App-dark');
     dispatch(actionReverseMode());
   }
 
@@ -29,11 +31,11 @@ function App() {
             </div>
             <div className="App-DarkMode">
               Dark Mode
-              <label className="Switch">
-                  <input type="checkbox" checked={darkmode} onChange={setDarkmode} />
-                  <span className="Slider"></span>
-              </label>
-            </div>
+            <label className="Switch">
+                <input type="checkbox" checked={darkmode} onChange={setDarkmode} />
+                <span className="Slider"></span>
+            </label>
+        </div>
           </header>
           <main>
             <div className="App-GlobalOverview">

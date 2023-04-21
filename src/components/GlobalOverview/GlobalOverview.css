@@ -1,0 +1,8 @@
+
+
+/*Cards organisation*/
+
+.GlobalOverview{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
