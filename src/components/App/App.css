@@ -1,6 +1,9 @@
 .App {
   text-align: center;
   background-color: hsl(0, 0%, 100%);
+  padding-top: 15px;
+  padding-left:80px;
+  padding-right:80px;
 }
 
 
@@ -82,4 +85,10 @@ h2 {
 
 .Filters-dark .Filter-night input:checked + .Slider {
   background-color: black;
+}
+
+/*Cards organisation*/
+
+.App-GlobalOverview{
+  display: flex;
 }

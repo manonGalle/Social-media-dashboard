@@ -3,10 +3,17 @@ import up from "../../../assets/icon/icon-up.svg";
 import down from "../../../assets/icon/icon-down.svg";
 
 import "./GlobalCard.css";
+import { useSelector } from "react-redux";
 
 function GlobalCard() {
+
+    const darkmode = useSelector((state) => state.darkMode);
+
+    const cssClass = darkmode ? 'GlobalCard GlobalCard-dark' : 'GlobalCard';
+
+
     return(
-        <div className="GlobalCard">
+        <div className={cssClass}>
             CARD with dynamic props
             <img src={facebook}/>
             <h4>pseudo</h4>
