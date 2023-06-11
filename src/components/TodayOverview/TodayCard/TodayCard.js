@@ -1,11 +1,10 @@
-import facebook from "../../../assets/logos/icon-facebook.svg";
 import up from "../../../assets/icon/icon-up.svg";
 import down from "../../../assets/icon/icon-down.svg";
 
 import "./TodayCard.css";
 import { useSelector } from "react-redux";
 
-function TodayCard() {
+function TodayCard({ socialLogo }) {
 
     const darkmode = useSelector((state) => state.darkMode);
 
@@ -13,9 +12,9 @@ function TodayCard() {
 
     return(
         <div className={cssClass}>
-            TODAYCARD with dynamic props
+            @ManonGalle
             <h4>Pages Views / Likes / Profile Views / Retweets</h4>
-            <img src={facebook}/>
+            <img src={socialLogo}/>
             <p className="number">##</p>
             <p className="pourcent">## <img src={up}/> ## % </p>
         </div>
