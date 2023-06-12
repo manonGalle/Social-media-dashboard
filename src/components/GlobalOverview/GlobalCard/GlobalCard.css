@@ -8,3 +8,20 @@
 .GlobalCard-dark {
     background-color: hsl(228, 28%, 20%);
 }
+
+.pseudo {
+    display: flex;
+    justify-content: center;
+}
+
+.pseudo img {
+    width: 15px;
+    height: 15px;
+}
+
+.pseudo h4 {
+    margin:0;
+    padding-left: 10px;
+    font-size: 13px;
+    color: rgb(54, 52, 52);
+}
