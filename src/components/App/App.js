@@ -30,12 +30,12 @@ function App() {
               <h2>Total followers : dynamic followers</h2>
             </div>
             <div className="App-DarkMode">
-              Dark Mode
-            <label className="Switch">
-                <input type="checkbox" checked={darkmode} onChange={setDarkmode} />
-                <span className="Slider"></span>
-            </label>
-        </div>
+              <h1>Dark Mode</h1>
+              <label className="Switch">
+                  <input type="checkbox" checked={darkmode} onChange={setDarkmode} />
+                  <span className="Slider"></span>
+              </label>
+          </div>
           </header>
           <main>
             <div className="App-GlobalOverview">
